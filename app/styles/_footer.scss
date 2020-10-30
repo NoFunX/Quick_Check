@@ -1,0 +1,115 @@
+.footer {
+    width:100%;
+    background-color: #000000;
+    display: inline-block;
+    
+
+
+    .content {
+        margin: 48px 308px 49px 248px;
+        display: flex;
+        justify-content: space-between;
+
+
+        .QuickCheck {
+           
+            h4 {margin-bottom: 15px;
+                color: #FFFFFF;
+                font-style: normal;
+                font-weight: bold;
+                font-size: 18px;
+                line-height: 21px;  
+                overflow:hidden;
+
+            }
+
+            p { 
+                font-style: normal;
+                font-weight: bold;
+                font-size: 16px;
+                line-height: 19px;  
+                color: #FFFFFF;
+                margin-bottom: 115px;
+                color: #b5b0a5;
+
+            }  
+
+            span {
+                font-style: normal;
+                font-weight: bold;
+                font-size: 16px;
+                line-height: 19px;  
+                color: #b5b0a5;
+    
+                }  
+            
+        }
+
+        .Contacts {
+            h4 {
+                color: #FFFFFF;
+                font-style: normal;
+                font-weight: bold;
+                font-size: 18px;
+                line-height: 20px;  
+                color: #FFFFFF;
+                margin-bottom: 15px;
+
+            }
+        }
+
+            p {
+                font-style: normal;
+                font-weight: bold;
+                font-size: 16px;
+                line-height: 19px;  
+                color: #FFFFFF;
+                margin-bottom: 15px;
+                color: #b5b0a5;
+
+        }
+        
+        .Links {
+
+            display: inline;
+            transition: 1.0s;
+            
+
+
+            h4 {margin-bottom: 15px;
+                color: #FFFFFF;
+                font-style: normal;
+                font-weight: bold;
+                font-size: 18px;
+                line-height: 20px;  
+
+            }
+            
+           
+            
+            a {
+                text-decoration: none;
+                display:block;
+                font-style: normal;
+                font-weight: bold;
+                font-size: 16px;
+                line-height: 19px;  
+                color: #FFFFFF;
+                margin-bottom: 15px;
+                color: #b5b0a5;
+                transition:all;
+
+           
+            } 
+
+            a:hover {
+                color: white;
+            }
+        }
+           
+    
+        }
+    }
+       
+    
+

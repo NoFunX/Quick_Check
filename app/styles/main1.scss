@@ -1,0 +1,32 @@
+@import "fonts.css";
+
+*{
+    box-sizing: border-box;
+    padding:0px;
+    margin:0px;
+    font-style: 'Montserrat', sans-serif;
+}
+
+body {
+    width:100%;
+    margin:0px;
+    padding: 0px;
+    margin-bottom: -500px;
+
+    @import "_header.scss";
+
+    @import "_main.scss";
+
+    @import "_footer.scss";
+
+    @import "_@media.scss";
+
+    
+    }
+   
+    
+    
+
+
+
+

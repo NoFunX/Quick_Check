@@ -1,0 +1,178 @@
+@import url(fonts.css);
+* {
+  box-sizing: border-box;
+  padding: 0px;
+  margin: 0px;
+  font-style: 'Montserrat', sans-serif; }
+
+body {
+  width: 100%;
+  margin: 0px;
+  padding: 0px;
+  margin-bottom: -500px; }
+  body .header {
+    background-color: #F7F7F7;
+    width: 100%;
+    position: fixed;
+    box-shadow: 0px 3px 10px rgba(0, 73, 130, 0.3); }
+    body .header .content {
+      display: flex;
+      justify-content: space-between; }
+    body .header .logo {
+      padding: 0px;
+      margin: 37px 0px 35px 153px;
+      font-weight: 700;
+      font-size: 26px;
+      font-weight: bold;
+      line-height: 32px;
+      color: #0D0D0D; }
+      body .header .logo a {
+        text-decoration: none;
+        padding: 0px;
+        color: #0D0D0D; }
+    body .header .links {
+      display: flex;
+      justify-content: space-between;
+      width: 30%;
+      padding: 0px;
+      margin: 45px 148px 35px 0px;
+      font-weight: 500;
+      font-size: 16px;
+      line-height: 21px;
+      color: #0D0D0D; }
+      body .header .links a {
+        text-decoration: none;
+        padding: 0px;
+        color: #0D0D0D;
+        transition: 1s; }
+      body .header .links a:hover {
+        transform: scale(1.1); }
+      body .header .links img {
+        color: #F6F6F6; }
+  body .main {
+    width: 100%;
+    display: inline-block;
+    height: 680px;
+    margin-top: 70px;
+    padding: 0px;
+    background-image: url("D:/mine/R@ndom team/app/img/main.png");
+    background-size: cover;
+    margin-bottom: -10px; }
+    body .main .content {
+      margin-top: 85px;
+      display: flex;
+      justify-content: space-between; }
+      body .main .content .block1 {
+        display: inline-block;
+        padding: 0px;
+        margin: 150px 0px 200px 250px; }
+        body .main .content .block1 h1 {
+          font-style: normal;
+          font-weight: 700;
+          font-size: 24px;
+          line-height: 38.4px; }
+        body .main .content .block1 img {
+          margin-top: 14px;
+          margin-bottom: 14px; }
+        body .main .content .block1 p {
+          font-family: sans-serif;
+          font-style: normal;
+          font-weight: normal;
+          font-size: 16px;
+          color: black;
+          line-height: 24px; }
+        body .main .content .block1 button {
+          margin-top: 40px;
+          background-color: #5561D1;
+          color: white;
+          padding: 8px 44px 9px 45px;
+          border-radius: 100px;
+          border: 0px;
+          font-style: normal;
+          font-weight: 600;
+          font-size: 15px;
+          opacity: 1;
+          transition: 1.0; }
+        body .main .content .block1 button:hover {
+          opacity: 0.6; }
+      body .main .content .block2 {
+        padding: 0px;
+        margin-top: 131px;
+        margin-right: 165px;
+        display: inline-block;
+        margin-top: 115px; }
+  body .footer {
+    width: 100%;
+    background-color: #000000;
+    display: inline-block; }
+    body .footer .content {
+      margin: 48px 308px 49px 248px;
+      display: flex;
+      justify-content: space-between; }
+      body .footer .content .QuickCheck h4 {
+        margin-bottom: 15px;
+        color: #FFFFFF;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 18px;
+        line-height: 21px;
+        overflow: hidden; }
+      body .footer .content .QuickCheck p {
+        font-style: normal;
+        font-weight: bold;
+        font-size: 16px;
+        line-height: 19px;
+        color: #FFFFFF;
+        margin-bottom: 115px;
+        color: #b5b0a5; }
+      body .footer .content .QuickCheck span {
+        font-style: normal;
+        font-weight: bold;
+        font-size: 16px;
+        line-height: 19px;
+        color: #b5b0a5; }
+      body .footer .content .Contacts h4 {
+        color: #FFFFFF;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 18px;
+        line-height: 20px;
+        color: #FFFFFF;
+        margin-bottom: 15px; }
+      body .footer .content p {
+        font-style: normal;
+        font-weight: bold;
+        font-size: 16px;
+        line-height: 19px;
+        color: #FFFFFF;
+        margin-bottom: 15px;
+        color: #b5b0a5; }
+      body .footer .content .Links {
+        display: inline;
+        transition: 1.0s; }
+        body .footer .content .Links h4 {
+          margin-bottom: 15px;
+          color: #FFFFFF;
+          font-style: normal;
+          font-weight: bold;
+          font-size: 18px;
+          line-height: 20px; }
+        body .footer .content .Links a {
+          text-decoration: none;
+          display: block;
+          font-style: normal;
+          font-weight: bold;
+          font-size: 16px;
+          line-height: 19px;
+          color: #FFFFFF;
+          margin-bottom: 15px;
+          color: #b5b0a5;
+          transition: all; }
+        body .footer .content .Links a:hover {
+          color: white; }
+  @media (max-width: 1280px) {
+    body .block2_check {
+      margin-left: 50px; }
+    body .block2_phone {
+      margin-right: 200px;
+      margin-top: -65px; } }
